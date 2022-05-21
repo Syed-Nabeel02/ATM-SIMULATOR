@@ -4,7 +4,7 @@ import java.sql.*;
 public class Conn {
 	public Connection c;
 	public Statement s;
-	static String databaseName = "mydb";
+	static String databaseName = "my_db";
 	static String url = "jdbc:mysql://localhost:3306/" + databaseName;
 	
 	static String username = "root";
